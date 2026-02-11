@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(241, 235, 224);
+    padding: 20px;
+    border-radius: 68px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.card{
+    background-color: white;
+    width: 1920px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+input{
+padding: 8px;
+margin-bottom: 10px;
+width: 80%;
+border:1px solid#aaa;
+border-radius: 4px;
+
+}
+
+button{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #eee ;
+    border: 1px solid#333;
+}
+
+button:hover{
+    background-color: azure;
+}
+
+#moneyContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+}
+
+#moneyContainer p{
+    background-color: #fafafa;
+    border:1px solid #ddd;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    color:#333;
+}
+
+#dollars {
+    grid-column: span 2;
+    background-color: #e8f5e9 !important;
+    color: green !important;
+}

@@ -4,11 +4,25 @@
   <head>
     <meta charset="utf-8">
     <title>Change Calculator</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!-- Write your markup here -->
-
-    <!-- Don't forget to add your <script> tag here -->
-
+    <main class="card">
+    <h1>Change Calculator!</h1> <br>
+    <label for = "saleTotal">How much is the total?</label>
+    <input id="saleTotal" type="text"/><br>
+  <label for ="amountPaid">Amount Recieved:</label>
+  <input id="amountPaid" type="text"/><br>
+  
+  <button id="calculateButton">Calculate</button>
+  <div id="moneyContainer">
+  <p id="dollars">Dollars</p>
+  <p id="quarters">Quarters</p>
+  <p id="dimes">Dimes</p>
+  <p id="nickels">Nickels</p>
+  <p id="pennies">Pennies</p>
+  </div>
+    </main>
+    <script src="main.js"></script>
   </body>
 </html>
